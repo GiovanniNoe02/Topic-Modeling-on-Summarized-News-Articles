@@ -5,11 +5,9 @@ University of Milan Bicocca – Text Mining and Search Course
 
 This project investigates the effect of text summarization on topic modeling using the CNN/DailyMail news dataset. The workflow is implemented in Google Colab notebooks and is designed to run with GPU acceleration due to the computational cost of embedding generation.
 
+The original dataset is available at: https://cs.nyu.edu/~kcho/DMQA/
 
 The project folder is organized into the following content:
--   Data - The folder that contains the original dataset, the results of the cleaning and 
-    exploration notebook and the summaries obtained from the best model in the 
-    summarization notebook.
 -  1_Cleaning_and_Exploration.ipynb - This notebook handles all data preprocessing and 
     exploratory data analysis.
 -   2_Topic_Modelling.ipynb - This notebook performs topic modeling on the original (full)
@@ -21,6 +19,7 @@ The project folder is organized into the following content:
 -   text_mining_project_utils.py - Python file containing the scripts for the functions created in 
     the function setup notebook
 
+Before executing code it is necessary to download the data and correctly set the directories in the variuos notebooks.
 
 The notebooks should be executed in the following order:
 -   Function_Setup.ipynb
